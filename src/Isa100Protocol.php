@@ -25,7 +25,7 @@ use Erikwang2013\IndustrialProtocols\Protocol\ProtocolInterface;
 class Isa100Protocol implements ProtocolInterface
 {
     public function getName(): string { return 'isa100'; }
-    public function getVersion(): string { return '1.0.0'; }
+    public function getVersion(): string { return '1.1.1'; }
     public function getSupportedVariants(): array { return ['wireless', 'backbone']; }
     public function getDefaultPort(): int { return 0; }
 

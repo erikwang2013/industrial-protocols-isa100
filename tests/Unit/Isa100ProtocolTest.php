@@ -20,7 +20,7 @@ class Isa100ProtocolTest extends TestCase
     public function test_get_version(): void
     {
         $protocol = new Isa100Protocol();
-        $this->assertSame('1.0.0', $protocol->getVersion());
+        $this->assertSame('1.1.1', $protocol->getVersion());
     }
 
     public function test_get_supported_variants(): void
